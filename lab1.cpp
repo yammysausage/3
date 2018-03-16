@@ -24,7 +24,7 @@ int main() {
 			cout << "you input" << a << "\n";
 			while (a != 1) {									//whether a=1 or not
 				if (a % 2 == 1) {
-					a = a * 3 - 1;							//calculate odd a
+					a = a * 3 + 1;							//calculate odd a
 					cout << "odd result:" << a << "\n";
 
 				}
@@ -43,6 +43,6 @@ int main() {
 	} while (d!=0);//prevent noob
 	 
 
-										system("pause");
+										cin.get();
 										return 0;
 }
